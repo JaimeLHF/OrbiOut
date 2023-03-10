@@ -18,7 +18,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5em 1em;
+    padding: 0 1em;
 }
 
 .header_logo_search {
@@ -221,7 +221,16 @@ a {
     width: 2.5em;
     border-radius: 50%;
     border: .2em solid #5380F0;
-    padding: .2em;
+    padding: .2em;  
+}
+
+.header_user_list_items{
+    padding: .5em;
+    border-radius: .3em;
+}
+
+.header_user_list_items:hover{
+    background-color: #464850;
 }
 
 
